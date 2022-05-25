@@ -1,9 +1,9 @@
-var counter = 10
+var counter = 100
 
 var countdown = function (){
  console.log(counter);
  counter--;
-    if(counter === 5){
+    if(counter === 10){
         console.log("5 seconds until launch!")
     };
 
@@ -13,4 +13,4 @@ var countdown = function (){
     };
 };
 
-var startCountdown = setInterval(countdown, 1000);
+var startCountdown = setInterval(countdown, 500);
