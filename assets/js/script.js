@@ -21,4 +21,4 @@ var countdown = function (){
     };
 };
 
-var startCountdown = setInterval(countdown, 200);
+var startCountdown = setInterval(countdown, 1000);
